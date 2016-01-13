@@ -21,14 +21,21 @@ from lib.mainpage import MainPage
 
 class LoginTests(unittest.TestCase):
     def test_login(self):
+        #启动页时间
         sleep(5)
-        mobiletext = loginPage.localtors['手机号']
+        #滑过引导页
+        for i in range(3):
+            driver.swipe(680, 200, 10, 680, 1500)
+        #点击引导页上的进入按钮
+        driver.find_element_by_id('com.jhd.help:id/btn_instant_start').click()
+        loginpage = loginPage()
+        mobiletext = loginpage.localtors['手机号']
         mobiletext.send_keys("13425152515")
 
-        passwdtext = loginPage.localtors['密码']
+        passwdtext = loginpage.localtors['密码']
         passwdtext.send_keys("123456")
 
-        loginPage.localtors['登陆按钮'].click()
+        loginpage.localtors['登陆按钮'].click()
         sleep(10)
     def test_logout(self):
         mainpage = MainPage()

@@ -21,8 +21,10 @@ from lib.mainpage import MainPage
 
 class LoginTests(unittest.TestCase):
     def test_login(self):
+        #滑过引导页
         for i in range(3):
             driver.swipe(680, 200, 10, 680, 1500)
+        #点击引导页上的进入按钮
         driver.find_element_by_id('com.jhd.help:id/btn_instant_start').click()
         sleep(3)
         list = ('18507551002','18507551003','18507551004','18507551005','18507551006',

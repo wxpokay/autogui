@@ -9,20 +9,20 @@ from time import sleep
 from base.deviceAtrr import driver
 from lib.loginAndRegist import loginPage
 import HTMLTestRunner
-from testcases import test_contact
+from testcases import contact
 
 
-#suite = unittest.TestLoader().loadTestsFromTestCase(test_contact.ContactsAndroidTests)
+#suite = unittest.TestLoader().loadTestsFromTestCase(contact.ContactsAndroidTests)
 #unittest.TextTestRunner(verbosity=2).run(suite)
 
 suiteTest = unittest.TestSuite()
-suiteTest.addTest(test_contact.ContactsAndroidTests("test_bang"))
+suiteTest.addTest(contact.ContactsAndroidTests("test_bang"))
 print 'paopaopaopaopao'
-#È·¶¨Éú³É±¨¸æµÄÂ·¾¶
+#È·ï¿½ï¿½ï¿½ï¿½ï¿½É±ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½
 filePath = "F:\\Myappium"
 fp = file(filePath,'wb')
 
-#Éú³É±¨¸æµÄTitle,ÃèÊö
+#ï¿½ï¿½ï¿½É±ï¿½ï¿½ï¿½ï¿½Title,ï¿½ï¿½ï¿½ï¿½
 runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title='Python Test Report',description='This  is Python  Report')
 runner.run(suiteTest)
 print 'paopaopaoapo'
