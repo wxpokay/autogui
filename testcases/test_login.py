@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
+登陆退出功能
 Created on 2015-12-21
 
 @author: Administrator
