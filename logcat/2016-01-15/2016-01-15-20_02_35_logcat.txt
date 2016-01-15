@@ -1,0 +1,145 @@
+01-15 20:02:35.412 I/MyJHD   (14211): ==heartbeatContent==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:02:35.412 I/MyJHD   (14211): ==heartbeatContent1
+01-15 20:02:37.832 I/MyJHD   (14211): baseActivity onPause
+01-15 20:02:37.872 I/MyJHD   (14211): baseActivity  onCreate
+01-15 20:02:38.022 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:02:38.032 I/MyJHD   (14211): baseActivity  onstart
+01-15 20:02:38.032 I/MyJHD   (14211): baseActivity resume===null
+01-15 20:02:38.092 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:02:38.092 D/JHD     (14211): mRoot.getHeight() = 0
+01-15 20:02:38.092 D/JHD     (14211): 键盘弹出状态
+01-15 20:02:38.122 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:02:38.122 D/JHD     (14211): mRoot.getHeight() = 0
+01-15 20:02:38.122 D/JHD     (14211): 键盘弹出状态
+01-15 20:02:38.282 D/JHD     (14211): GetCommentList json -> {"seq":"6F0607F5E79707ED0000000C","rcode":0,"rmsg":"请求成功","data":[]}
+01-15 20:02:38.292 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:02:38.462 I/MyJHD   (14211): baseActivity onStop
+01-15 20:02:38.502 D/JHD     (14211): GetHelpDetail json -> {"seq":"21F3EEC1EBA773CA0000000C","rcode":0,"rmsg":"请求成功","data":{"bang_info":{"bang_id":6603,"title":"111111111111111111","content":"1111111111111111111111111","reward":"","money":1.00,"end_time":1453996800000,"bang_status":2,"wait_num":2,"comment_num":0,"is_delete":0,"issue_time":1452568316000,"create_time":1452568316000,"create_user":{"id":100500,"nick":"官方格式的","head":"http://115.159.47.200:8888/group1/M00/00/AA/CmkpAlaM5dKAN08TAABp2kowWzk501.jpg"},"update_time":1452677023000,"update_user":1,"images":["http://115.159.47.200:8888/group1/M00/00/AC/CmkpAlaUbwWATobpAAA1tRJT8dI902.jpg","http://115.159.47.200:8888/group1/M00/00/AC/CmkpAlaUbwWAN6ptAABnJcgUdWA454.jpg","http://115.159.47.200:8888/group1/M00/00/AC/CmkpAlaUbwaAS2NjAAA72Hi7gvg576.jpg","http://115.159.47.200:8888/group1/M00/00/AC/CmkpAlaUbwWAVA1EAABU9TN_2so908.jpg"],"complain_status":0,"filter_status":0,"filter_words":"AV","filter_type":1,"filter_time":1452568316000,"top":0}}}
+01-15 20:02:38.502 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:02:38.672 D/JHD     (14211): statue == 200
+01-15 20:02:38.682 D/JHD     (14211): CheckAttention json -> {"seq":"43E7DED61C7964C00000000C","rcode":0,"rmsg":"请求成功"}
+01-15 20:02:38.682 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:02:38.862 D/JHD     (14211): statue == 200
+01-15 20:02:38.862 D/JHD     (14211): CheckApply json -> {"seq":"7830410181E2B89E0000000C","rcode":0,"rmsg":"请求成功","data":{"bang_id":6603,"apply_status":-1}}
+01-15 20:02:38.922 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:02:38.922 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:02:38.922 D/JHD     (14211): 键盘收起状态
+01-15 20:02:38.982 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:02:38.982 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:02:38.982 D/JHD     (14211): 键盘收起状态
+01-15 20:02:39.172 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:02:39.172 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:02:39.172 D/JHD     (14211): 键盘收起状态
+01-15 20:02:39.202 I/MyJHD   (14211): baseActivity onPause
+01-15 20:02:39.232 I/MyJHD   (14211): onActivityResult
+01-15 20:02:39.232 I/MyJHD   (14211): mainActivity  onStart
+01-15 20:02:39.232 I/MyJHD   (14211): baseActivity  onstart
+01-15 20:02:39.242 I/MyJHD   (14211): mainActivity  onresume
+01-15 20:02:39.242 I/MyJHD   (14211): baseActivity resume===null
+01-15 20:02:39.672 I/MyJHD   (14211): baseActivity onStop
+01-15 20:02:39.672 I/MyJHD   (14211): BaseActivity onDestroy
+01-15 20:02:40.732 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:02:50.432 I/MyJHD   (14211): ==heartbeatContent==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:02:50.432 I/MyJHD   (14211): ==heartbeatContent1
+01-15 20:02:59.872 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:01.002 I/MyJHD   (14211): baseActivity onPause
+01-15 20:03:01.042 I/MyJHD   (14211): baseActivity  onCreate
+01-15 20:03:01.132 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:01.132 I/MyJHD   (14211): baseActivity  onstart
+01-15 20:03:01.142 I/MyJHD   (14211): baseActivity resume===null
+01-15 20:03:01.172 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:01.172 D/JHD     (14211): mRoot.getHeight() = 0
+01-15 20:03:01.172 D/JHD     (14211): 键盘弹出状态
+01-15 20:03:01.212 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:01.212 D/JHD     (14211): mRoot.getHeight() = 0
+01-15 20:03:01.212 D/JHD     (14211): 键盘弹出状态
+01-15 20:03:01.342 D/JHD     (14211): GetCommentList json -> {"seq":"7CFBEE959CAB6CF40000000C","rcode":0,"rmsg":"请求成功","data":[]}
+01-15 20:03:01.352 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:01.522 I/MyJHD   (14211): baseActivity onStop
+01-15 20:03:01.532 D/JHD     (14211): GetHelpDetail json -> {"seq":"06082182817E4FAD0000000C","rcode":0,"rmsg":"请求成功","data":{"bang_info":{"bang_id":6541,"title":"！！？？。。？！～～！！？？？","content":"！！～～！？。，。？？！！～～","reward":"请喝咖啡","money":0.00,"end_time":1451556000000,"bang_status":3,"wait_num":1,"comment_num":0,"is_delete":0,"issue_time":1451468071000,"create_time":1451468071000,"create_user":{"id":111392,"nick":"MQ0059","head":"http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDpLGAH83YAAAOQDpurRM784.jpg"},"update_time":1451468238000,"update_user":1,"images":[],"complain_status":0,"filter_status":0,"top":0},"apply":{"apply_id":2987,"bang_id":6541,"apply_user":{"id":111387,"nick":"MQ0058","head":"http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDpLCAecE1AAAWglDWf-A272.jpg"},"message":"665544422366555888866554","apply_time":1451468086000,"apply_status":10,"is_delete":0,"create_time":1451468086000,"create_user":111387,"update_time":1451468170000,"update_user":111392}}}
+01-15 20:03:01.532 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:01.612 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:01.612 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:03:01.612 D/JHD     (14211): 键盘收起状态
+01-15 20:03:01.722 D/JHD     (14211): statue == 200
+01-15 20:03:01.732 D/JHD     (14211): CheckAttention json -> {"seq":"0C1044574827767E0000000C","rcode":0,"rmsg":"请求成功"}
+01-15 20:03:02.222 I/MyJHD   (14211): baseActivity onPause
+01-15 20:03:02.252 I/MyJHD   (14211): onActivityResult
+01-15 20:03:02.252 I/MyJHD   (14211): mainActivity  onStart
+01-15 20:03:02.252 I/MyJHD   (14211): baseActivity  onstart
+01-15 20:03:02.272 I/MyJHD   (14211): mainActivity  onresume
+01-15 20:03:02.282 I/MyJHD   (14211): baseActivity resume===null
+01-15 20:03:02.702 I/MyJHD   (14211): baseActivity onStop
+01-15 20:03:02.702 I/MyJHD   (14211): BaseActivity onDestroy
+01-15 20:03:04.212 I/MyJHD   (14211): baseActivity onPause
+01-15 20:03:04.262 I/MyJHD   (14211): baseActivity  onCreate
+01-15 20:03:04.352 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:04.362 I/MyJHD   (14211): baseActivity  onstart
+01-15 20:03:04.362 I/MyJHD   (14211): baseActivity resume===null
+01-15 20:03:04.412 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:04.412 D/JHD     (14211): mRoot.getHeight() = 0
+01-15 20:03:04.412 D/JHD     (14211): 键盘弹出状态
+01-15 20:03:04.442 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:04.442 D/JHD     (14211): mRoot.getHeight() = 0
+01-15 20:03:04.442 D/JHD     (14211): 键盘弹出状态
+01-15 20:03:04.542 D/JHD     (14211): GetCommentList json -> {"seq":"18208A00D579CF200000000C","rcode":0,"rmsg":"请求成功","data":[]}
+01-15 20:03:04.542 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:04.732 D/JHD     (14211): GetHelpDetail json -> {"seq":"30411553F01E81290000000C","rcode":0,"rmsg":"请求成功","data":{"bang_info":{"bang_id":6529,"title":"翻译哦也符合从窗口和空欢喜","content":"第一哦运动鞋哟小后续零点零一国际性出口量还常常看出来后德国 i 兴凯湖出来出来出来开心高兴好开心好开心厉害辛苦好辛苦环环相扣喜欢了新款更新很快心里话获得了理想和幻想了","reward":"一周morning call","money":0.10,"end_time":1451548800000,"bang_status":3,"wait_num":1,"comment_num":0,"is_delete":0,"issue_time":1451465984000,"create_time":1451465984000,"create_user":{"id":100027,"nick":"不休息","head":"http://115.159.47.200:8888/group1/M00/00/26/CmkpAlYXLDGAI1cWAAAoqQ-Iwsc022.jpg"},"update_time":1451466496000,"update_user":111404,"images":["http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnQWAftHDAAJpUC9U0-k156.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnQWADxH7AAH4oOmHIOU045.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnQaAdz8BAADM7JbQNv0130.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnQaAH_0gAADGXodxuX0891.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnQaAQRc_AADLTkbdx14396.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnQaAbYHzAACjuS-KMNw547.jpg"],"complain_status":0,"filter_status":0,"top":0},"apply":{"apply_id":2977,"bang_id":6529,"apply_user":{"id":111404,"nick":"MQ3034","head":"http://115.159.47.200:8888/maiquan/default_picture/dhead.png"},"message":"和 app 打开热死了算了","apply_time":1451466002000,"apply_status":6,"is_delete":0,"create_time":1451466002000,"create_user":111404,"update_time":1451466496000,"update_user":111404}}}
+01-15 20:03:04.732 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:04.762 I/MyJHD   (14211): baseActivity onStop
+01-15 20:03:04.842 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:04.842 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:03:04.842 D/JHD     (14211): 键盘收起状态
+01-15 20:03:04.942 D/JHD     (14211): statue == 200
+01-15 20:03:04.942 D/JHD     (14211): CheckAttention json -> {"seq":"60822BFA2567E5F20000000C","rcode":0,"rmsg":"请求成功"}
+01-15 20:03:04.982 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:04.982 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:03:04.982 D/JHD     (14211): 键盘收起状态
+01-15 20:03:05.022 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:05.022 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:03:05.022 D/JHD     (14211): 键盘收起状态
+01-15 20:03:05.452 I/MyJHD   (14211): ==heartbeatContent==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:05.452 I/MyJHD   (14211): ==heartbeatContent1
+01-15 20:03:05.542 I/MyJHD   (14211): baseActivity onPause
+01-15 20:03:05.562 I/MyJHD   (14211): onActivityResult
+01-15 20:03:05.572 I/MyJHD   (14211): mainActivity  onStart
+01-15 20:03:05.572 I/MyJHD   (14211): baseActivity  onstart
+01-15 20:03:05.572 I/MyJHD   (14211): mainActivity  onresume
+01-15 20:03:05.582 I/MyJHD   (14211): baseActivity resume===null
+01-15 20:03:06.022 I/MyJHD   (14211): baseActivity onStop
+01-15 20:03:06.022 I/MyJHD   (14211): BaseActivity onDestroy
+01-15 20:03:07.772 I/MyJHD   (14211): baseActivity onPause
+01-15 20:03:07.822 I/MyJHD   (14211): baseActivity  onCreate
+01-15 20:03:07.912 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:07.922 I/MyJHD   (14211): baseActivity  onstart
+01-15 20:03:07.922 I/MyJHD   (14211): baseActivity resume===null
+01-15 20:03:07.962 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:07.962 D/JHD     (14211): mRoot.getHeight() = 0
+01-15 20:03:07.962 D/JHD     (14211): 键盘弹出状态
+01-15 20:03:07.992 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:07.992 D/JHD     (14211): mRoot.getHeight() = 0
+01-15 20:03:07.992 D/JHD     (14211): 键盘弹出状态
+01-15 20:03:08.102 D/JHD     (14211): GetCommentList json -> {"seq":"7DF74EC525358B5D0000000C","rcode":0,"rmsg":"请求成功","data":[]}
+01-15 20:03:08.112 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:08.322 I/MyJHD   (14211): baseActivity onStop
+01-15 20:03:08.342 D/JHD     (14211): GetHelpDetail json -> {"seq":"041161237069F86F0000000C","rcode":0,"rmsg":"请求成功","data":{"bang_info":{"bang_id":6527,"title":"chkkxhhxkxhkhxk的后悔了此次联合出口的很快很快返回浪费汇款单","content":"电影院都喜欢开会先哭后笑了ID右后方祸从口出靠海吃海疯狂各项存款好吃可好吃了回来吃都很开心出口和酣畅淋漓好吃新婚旅行很快回来此次联合成立后的连环画出来出来出来出来的哟下课后看出来吃红牌的新婚旅行横路孝弘联系汇率联系汇率处理好成绩出来新款环环相扣喜欢客户联系","reward":"唱一首歌","money":0.10,"end_time":1451548800000,"bang_status":3,"wait_num":1,"comment_num":0,"is_delete":0,"issue_time":1451465778000,"create_time":1451465778000,"create_user":{"id":100027,"nick":"不休息","head":"http://115.159.47.200:8888/group1/M00/00/26/CmkpAlYXLDGAI1cWAAAoqQ-Iwsc022.jpg"},"update_time":1451465936000,"update_user":100027,"images":["http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnDqAW73YAADM7JbQNv0082.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnDqAM8P6AADGXodxuX0575.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnDqAKpL9AAH4oOmHIOU068.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnDqAdUGNAAJpUC9U0-k575.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnDuAVEwRAADLTkbdx14209.jpg","http://115.159.47.200:8888/group1/M00/00/A6/CmkpAlaDnDuAb4AxAACBUl9bkls276.jpg"],"complain_status":0,"filter_status":0,"top":0},"apply":{"apply_id":2976,"bang_id":6527,"apply_user":{"id":111404,"nick":"MQ3034","head":"http://115.159.47.200:8888/maiquan/default_picture/dhead.png"},"message":"两色色结合了了","apply_time":1451465803000,"apply_status":3,"is_delete":0,"create_time":1451465803000,"create_user":111404,"update_time":1451465936000,"update_user":100027}}}
+01-15 20:03:08.342 I/MyJHD   (14211): GetDataImpl  getUrl==2ccbcdd0c1bb4ad09f429169c9ae784a
+01-15 20:03:08.442 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:08.442 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:03:08.442 D/JHD     (14211): 键盘收起状态
+01-15 20:03:08.532 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:08.532 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:03:08.532 D/JHD     (14211): 键盘收起状态
+01-15 20:03:08.622 D/JHD     (14211): mRoot.getRootView().getHeight() = 1280
+01-15 20:03:08.622 D/JHD     (14211): mRoot.getHeight() = 1134
+01-15 20:03:08.622 D/JHD     (14211): 键盘收起状态
+01-15 20:03:09.142 I/MyJHD   (14211): baseActivity onPause
+01-15 20:03:09.162 I/MyJHD   (14211): onActivityResult
+01-15 20:03:09.162 I/MyJHD   (14211): mainActivity  onStart
+01-15 20:03:09.172 I/MyJHD   (14211): baseActivity  onstart
+01-15 20:03:09.172 I/MyJHD   (14211): mainActivity  onresume
+01-15 20:03:09.172 I/MyJHD   (14211): baseActivity resume===null
+01-15 20:03:09.542 D/JHD     (14211): statue == 200
+01-15 20:03:09.542 D/JHD     (14211): CheckAttention json -> {"seq":"0822C39925FEE2990000000C","rcode":0,"rmsg":"请求成功"}
+01-15 20:03:09.622 I/MyJHD   (14211): baseActivity onStop
+01-15 20:03:09.622 I/MyJHD   (14211): BaseActivity onDestroy

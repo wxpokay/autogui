@@ -24,6 +24,7 @@ class getAppLog():
 
     def envCheck(self):
         '''  校验 andriod sdk '''
+        print os.environ
         if "ANDROID_HOME" in os.environ:
             rootDir = os.path.join(os.environ["ANDROID_HOME"], "platform-tools")
             for path, subdir, files in os.walk(rootDir):

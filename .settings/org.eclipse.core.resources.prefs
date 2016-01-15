@@ -1,6 +1,8 @@
 eclipse.preferences.version=1
 encoding//base/deviceAtrr.py=utf-8
 encoding//base/getlog.py=utf-8
+encoding//base/logcat.py=utf-8
+encoding//lib/clearlog.py=utf-8
 encoding//lib/loginAndRegist.py=utf-8
 encoding//lib/mainpage.py=utf-8
 encoding//lib/myinfo.py=utf-8
