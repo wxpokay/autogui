@@ -9,6 +9,7 @@ encoding//lib/myinfo.py=utf-8
 encoding//lib/mymsgpage.py=utf-8
 encoding//lib/setting.py=utf-8
 encoding//testcases/contact.py=utf-8
+encoding//testcases/meminfo.py=utf-8
 encoding//testcases/test_login.py=utf-8
 encoding//testcases/test_regist.py=utf-8
 encoding//testcases/test_sendmsg.py=utf-8
