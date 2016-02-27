@@ -16,7 +16,7 @@ desired_caps = {
     'platformVersion':'4.4',
     'deviceName':'2a2d811',
     'app':PATH(
-            'F:\Myappium\myapp\JHD_help_demoV1.5.8.4.apk_1.5.8.4.apk'),
+            'F:\Myappium\myapp\jHD_help-debugv1.7.0.7.apk'),
     'appPackage':'com.jhd.help',
     'appActivity':'.module.welcome.SplashActivity',
 }

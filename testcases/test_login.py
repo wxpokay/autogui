@@ -21,6 +21,12 @@ from lib.mainpage import MainPage
 
 
 class LoginTests(unittest.TestCase):
+    def setUp(self):
+        pass
+        
+    def tearDown(self):
+        driver.quit()
+        
     def test_login(self):
         #启动页时间
         sleep(5)
@@ -49,6 +55,12 @@ class LoginTests(unittest.TestCase):
         setpage.localtors['退出当前账号'].click()
         sleep(2)
 if __name__ == '__main__':
+    from base.testThead import Threadlog
+    t=Threadlog()
+    t.setDaemon(True)
+    t.start()
+    
     suite = unittest.TestLoader().loadTestsFromTestCase(LoginTests)
     unittest.TextTestRunner(verbosity=2).run(suite)
+    #print "I am main thread"
         
