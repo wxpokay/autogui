@@ -17,9 +17,7 @@ class Threadlog(threading.Thread):
         Androidlogcat.clearLogcat()
         filename = Androidlogcat.def_log_file()
         print  filename
-        sleep(10)
         Androidlogcat.getLogcat(filename)
-        sleep(1000)
 
 class T2(threading.Thread):
     def __init__(self):

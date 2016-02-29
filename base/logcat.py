@@ -7,9 +7,10 @@ Created on 2016-1-15
 
 import os
 import time
+import subprocess
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
-result = "F:\\workspace\\autogui\\logcat\\"
+result = "F:\\adt-bundle-windows-x86_64-20140702\\workspace\\autotest\\logcat\\"
 
 #获取系统当前时间
 now = time.strftime('%Y-%m-%d-%H_%M_%S', time.localtime(time.time()))
@@ -33,23 +34,27 @@ class getAndroidLogcat:
         ''' 清除logcat  '''
         print '清除日志'
         
-        os.popen("adb logcat -c")
+        subprocess.Popen("adb logcat -c")
         
                 
     def getLogcat(self,file_path):
         ''' logcat取出  '''
         print '获取日志'
-        cmd ='adb logcat -v time |findstr JHD >>' + file_path
-        os.popen(cmd)
+        #cmd ='adb logcat -v time '
+        #os.popen(cmd)
+        cmd ='adb logcat -v time |findstr jhd >>' + file_path
+        '''adb命令不允许多线程共同使用，所以这里用了子进程来操作'''
+        subprocess.Popen(cmd,shell=True)
 
-
+       
     
 
 if __name__ == "__main__":
-    getAndroidLogcat().clearLogcat()
-    filename = getAndroidLogcat().def_log_file()
+    GetLogCat = getAndroidLogcat()
+    GetLogCat.clearLogcat()
+    filename = GetLogCat.def_log_file()
     print  filename
-    time.sleep(10)
-    getAndroidLogcat().getLogcat(filename)
+    #time.sleep(10)
+    GetLogCat.getLogcat(filename)
     
     

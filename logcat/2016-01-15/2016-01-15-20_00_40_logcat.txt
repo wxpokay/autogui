@@ -1,8 +1,0 @@
-01-15 20:00:50.242 I/MyJHD   (14211): ==heartbeatContent==2ccbcdd0c1bb4ad09f429169c9ae784a
-01-15 20:00:50.242 I/MyJHD   (14211): ==heartbeatContent1
-01-15 20:01:05.262 I/MyJHD   (14211): ==heartbeatContent==2ccbcdd0c1bb4ad09f429169c9ae784a
-01-15 20:01:05.262 I/MyJHD   (14211): ==heartbeatContent1
-01-15 20:01:20.282 I/MyJHD   (14211): ==heartbeatContent==2ccbcdd0c1bb4ad09f429169c9ae784a
-01-15 20:01:20.292 I/MyJHD   (14211): ==heartbeatContent1
-01-15 20:01:35.312 I/MyJHD   (14211): ==heartbeatContent==2ccbcdd0c1bb4ad09f429169c9ae784a
-01-15 20:01:35.312 I/MyJHD   (14211): ==heartbeatContent1
