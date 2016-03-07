@@ -7,10 +7,8 @@ Created on 2015-12-21
 登陆退出功能
 '''
 
-#import os
+
 import unittest
-#import time
-#from appium import webdriver
 from time import sleep
 from base.deviceAtrr import driver
 from lib.loginAndRegist import loginPage
@@ -44,7 +42,6 @@ class LoginTests(unittest.TestCase):
 
         loginpage.localtors['登陆按钮'].click()
         sleep(10)
-    def test_logout(self):
         mainpage = MainPage()
         mainpage.localtors['个人中心'].click()
         sleep(2)
@@ -55,12 +52,12 @@ class LoginTests(unittest.TestCase):
         setpage.localtors['退出当前账号'].click()
         sleep(2)
 if __name__ == '__main__':
+    '''用子线程来获取logcat日志'''
     from base.testThead import Threadlog
-    t=Threadlog()
+    t=Threadlog()   
     t.setDaemon(True)
     t.start()
     
     suite = unittest.TestLoader().loadTestsFromTestCase(LoginTests)
     unittest.TextTestRunner(verbosity=2).run(suite)
-    #print "I am main thread"
         

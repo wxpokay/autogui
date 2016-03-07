@@ -10,7 +10,7 @@ import time
 import subprocess
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
-result = "F:\\adt-bundle-windows-x86_64-20140702\\workspace\\autotest\\logcat\\"
+result = "F:\\workspace\\autogui\\logcat\\"
 
 #获取系统当前时间
 now = time.strftime('%Y-%m-%d-%H_%M_%S', time.localtime(time.time()))
@@ -45,6 +45,7 @@ class getAndroidLogcat:
         cmd ='adb logcat -v time |findstr jhd >>' + file_path
         '''adb命令不允许多线程共同使用，所以这里用了子进程来操作'''
         subprocess.Popen(cmd,shell=True)
+        print "hahhahahhahhah "
 
        
     

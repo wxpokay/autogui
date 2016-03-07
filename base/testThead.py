@@ -19,11 +19,10 @@ class Threadlog(threading.Thread):
         print  filename
         Androidlogcat.getLogcat(filename)
 
-class T2(threading.Thread):
+class MemThread(threading.Thread):
     def __init__(self):
         threading.Thread.__init__(self)
     def run(self):
-        #for i in range(100):
         print "I am subthread",ctime()
 
         

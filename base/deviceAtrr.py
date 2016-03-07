@@ -14,7 +14,7 @@ PATH = lambda p: os.path.abspath(
 desired_caps = {
     'platformName':'Android',
     'platformVersion':'4.4',
-    'deviceName':'2a2d811',
+    'deviceName':'127.0.0.1:53001',
     'app':PATH(
             'F:\Myappium\myapp\jHD_help-debugv1.7.0.7.apk'),
     'appPackage':'com.jhd.help',
