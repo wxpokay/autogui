@@ -26,12 +26,12 @@ class getAndroidMem:
         ''' 定义 存放内存数据的文件   '''
         print '定义 存放内存数据的文件 '
         if os.path.exists(tdresult):
-            filename = tdresult + "\\" + now + "_mem.txt"
+            filename = tdresult + "\\" + now + "_mem.csv"
             
             
         else:
             os.mkdir(tdresult)
-            filename = tdresult + "\\" + now + "_mem.txt"
+            filename = tdresult + "\\" + now + "_mem.csv"
         if(os.path.exists(filename)):
             print "已经存在了"
         else:
@@ -49,17 +49,17 @@ class getAndroidMem:
         ''' 获取内存趋势图  '''
         print '获取内存趋势图 '
         #f = open(file_path, 'w')
-        #cmd1 = 'adb shell dumpsys meminfo com.jhd.help |findstr Pss>>' + file_path
-        cmd1 = 'adb shell logcat -v time |findstr jhd >>' + file_path
+        cmd1 = 'adb shell dumpsys meminfo com.jhd.help |findstr Pss>>' + file_path
+        #cmd1 = 'adb shell logcat -v time |findstr jhd >>' + file_path
         print cmd1
-        subprocess.Popen(cmd1)
+        subprocess.Popen(cmd1,shell=True)
         
         cmd2 = 'adb shell dumpsys meminfo com.jhd.help |findstr Total>>' + file_path
         
-        #subprocess.Popen(cmd2)
-        cmd2 = 'adb shell dumpsys meminfo com.jhd.help |findstr TOTAL>>' + file_path
-        #while(True):
-            #subprocess.Popen(cmd2)
+        subprocess.Popen(cmd2,shell=True)
+        cmd3 = 'adb shell dumpsys meminfo com.jhd.help |findstr TOTAL>>' + file_path
+        while(True):
+            subprocess.Popen(cmd3,shell=True)
 
 
        
@@ -68,7 +68,5 @@ class getAndroidMem:
 if __name__ == "__main__":
     filename = getAndroidMem().def_file()
     #print filename
-   # getAndroidMem.getMemDump(filename)
     print '开始获取趋势'
     getAndroidMem().getMemPic(filename)
-    
